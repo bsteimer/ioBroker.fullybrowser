@@ -135,6 +135,10 @@ class fullybrowserControll extends utils.Adapter {
                         var vol = state.val;
                         await this.fullySendCommand(ip, command + '&level=' + vol + '&stream=3');
                         break;
+                    case 'playSound':
+                        var url = state.val;
+                        await this.fullySendCommand(ip, command + '&url=' + url + '&loop=false');
+                        break;
                     case 'loadURL':
                         let strUrl = state.val;
                         strUrl = strUrl.replace(/ /g, ""); // Remove Spaces
@@ -313,7 +317,7 @@ class fullybrowserControll extends utils.Adapter {
             'stopScreensaver', 'startDaydream', 'stopDaydream', 'toForeground', 'popFragment', 'enableLockedMode', 'disableLockedMode'
         ];
 
-        const commArText = ['startApplication', 'loadURL', 'setAudioVolume', 'textToSpeech', 'setStringSetting'];
+        const commArText = ['startApplication', 'loadURL', 'setAudioVolume', 'textToSpeech', 'setStringSetting', 'playSound'];
 
         const commArNumber = ['screenBrightness'];
 
