@@ -1,8 +1,47 @@
 {
   "common": {
     "name": "fullybrowser",
-    "version": "3.0.6",
+    "version": "3.0.9",
     "news": {
+      "3.0.9": {
+        "en": "corr error message",
+        "de": "korr fehlermeldung",
+        "ru": "сообщение об ошибке",
+        "pt": "mensagem de erro corr",
+        "nl": "vertaling:",
+        "fr": "corr error message",
+        "it": "messaggio di errore corr",
+        "es": "mensaje de error de corr",
+        "pl": "kor error message",
+        "uk": "корр повідомлення про помилку",
+        "zh-cn": "错误信息"
+      },
+      "3.0.8": {
+        "en": "toForeground corr\n",
+        "de": "toForeground corr\n",
+        "ru": "toForeground корр\n",
+        "pt": "toForeground corr\n",
+        "nl": "*Foreground corr\n",
+        "fr": "toForeground corr\n",
+        "it": "aCorretto anteriore\n",
+        "es": "toForeground corr\n",
+        "pl": "toForeground (ang.)\n",
+        "uk": "toForeground кор\n",
+        "zh-cn": "地面政变\n"
+      },
+      "3.0.7": {
+        "en": "check credentials",
+        "de": "anmeldeinformationen überprüfen",
+        "ru": "проверить учетные данные",
+        "pt": "verificar as credenciais",
+        "nl": "controleer de referenties",
+        "fr": "vérification des pouvoirs",
+        "it": "controllare le credenziali",
+        "es": "verificación de credenciales",
+        "pl": "credential",
+        "uk": "перевірка облікових даних",
+        "zh-cn": "检查"
+      },
       "3.0.6": {
         "en": "add mqttTimeout in settings",
         "de": "mqtTimeout in Einstellungen hinzufügen",
@@ -54,45 +93,6 @@
         "pl": "stworzenie korekty",
         "uk": "setStringSettings корр",
         "zh-cn": "导 言"
-      },
-      "3.0.2": {
-        "en": "add motionDetection\nfor Rooted Devices add rebootDevice",
-        "de": "bewegung hinzufügenDetektion\nfür Rooted Devices Neustart hinzufügen",
-        "ru": "добавить motionDetection\nдля Rooted Devices добавить rebootDevice",
-        "pt": "adicionar definição de movimento\npara dispositivos enraizados adicionar rebootDevice",
-        "nl": "vertaling:\nvoor Rooted Devices voegt reboot Device toe",
-        "fr": "add motionDetection\npour Rooted Devices ajouter rebootDevice",
-        "it": "aggiungere il movimento\nper Dispositivi Radicati aggiungere rebootDevice",
-        "es": "añadir movimientoDetección\npara dispositivos rotos añadir reinicioDispositivo",
-        "pl": "dodać wniosek\nrooted Device dodaje rebootDevice",
-        "uk": "додати рухуВиявлення\nдля кореневих пристроїв додайте перезавантаження",
-        "zh-cn": "增 编\n扶轮社"
-      },
-      "3.0.1": {
-        "en": "add motionDetection\nfor Rooted Devices add rebootDevice",
-        "de": "bewegung hinzufügenDetektion\nfür Rooted Devices Neustart hinzufügen",
-        "ru": "добавить motionDetection\nдля Rooted Devices добавить rebootDevice",
-        "pt": "adicionar definição de movimento\npara dispositivos enraizados adicionar rebootDevice",
-        "nl": "vertaling:\nvoor Rooted Devices voegt reboot Device toe",
-        "fr": "add motionDetection\npour Rooted Devices ajouter rebootDevice",
-        "it": "aggiungere il movimento\nper Dispositivi Radicati aggiungere rebootDevice",
-        "es": "añadir movimientoDetección\npara dispositivos rotos añadir reinicioDispositivo",
-        "pl": "dodać wniosek\nrooted Device dodaje rebootDevice",
-        "uk": "додати рухуВиявлення\nдля кореневих пристроїв додайте перезавантаження",
-        "zh-cn": "增 编\n扶轮社"
-      },
-      "3.0.0": {
-        "en": "* breaking change - new structure from fully-mqtt Adapter from Acgua\n* here is the Orginal https://github.com/Acgua/ioBroker.fully-mqtt\n\n#----------------------------------------------------------------------",
-        "de": "* Brechwechsel - neue Struktur aus Vollmqt Adapter von Acgua\n* hier ist der Orginal https://github.com/Acgua/ioBroker.ful-mqtt\n\n#----------------------------------------------------------------------",
-        "ru": "* сломать изменение - новая структура от полностью мкт адаптер от Acgua\n* вот Orginal https://github.com/Acgua/ioBroker.fully-mqtt\n\n#----------------------------------------------------------------------",
-        "pt": "* mudança de ruptura - nova estrutura do adaptador totalmente mqtt de Acgua\n* aqui está o Orginal https://github.com/Acgua/ioBroker.fully-mqtt\n\n#----------------------------------------------------------------------",
-        "nl": "♪ breaking change - new structure from volledig-mqt Adapter from Acgua\nQuality over Quantity (QoQ) Releases Vertaling:\n\n#----------------------------------------------------------------------",
-        "fr": "* changement de rupture - nouvelle structure de l'adaptateur entièrement mqt de Acgua\n* here is the Orginal https://github.com/Acgua/ioBroker.fully-mqtt\n\n#----------------------------------------------------------------------",
-        "it": "* cambiamento di rottura - nuova struttura da adattatore completamente mqtt da Acgua\n* ecco l'Orginal https://github.com/Acgua/ioBroker.fully-mqtt\n\n#----------------------------------------------------------------------",
-        "es": "* cambio de ruptura - nueva estructura del adaptador de mqtt de Acgua\n* aquí está el Orginal https://github.com/Acgua/ioBroker.fully-mqtt\n\n#----------------------------------------------------------------------",
-        "pl": "Zmiana - nowa struktura z w pełni mqtt Adapter z Acgua\n* here is the Orginal https:/github.com/Acgua/ioBroker.ful-mqttps\n\n#----------------------------------------------------------------------",
-        "uk": "* зміна розриву - нова структура з повністю-mqtt адаптера з Acgua\n* тут Ординал https://github.com/Acgua/ioBroker.fully-mqtt\n\n#----------------------------------------------------------------------",
-        "zh-cn": "* 打破变化——从Acgua完全撤出的新结构\n* 现为原文:http://github.com/Acgua/ioBroker。\n\n#----------------------------------------------------------------------"
       }
     },
     "title": "fullyBrowser",
@@ -226,8 +226,7 @@
           "cancel"
         ]
       }
-    ],
-    "installedFrom": "arteck/ioBroker.fullybrowser#newFully2"
+    ]
   },
   "native": {
     "tableDevices": [],
