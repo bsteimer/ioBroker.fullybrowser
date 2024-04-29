@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "fullybrowser",
-    "version": "3.0.11",
+    "version": "3.0.12",
     "news": {
+      "3.0.12": {
+        "en": "set batteryLevel to 0 if tablet is offline is configurable",
+        "de": "set Batterie Ebene auf 0 wenn Tablet offline konfigurierbar ist",
+        "ru": "аккумулятор Уровень до 0, если планшет офлайн настраивается",
+        "pt": "bateria de conjunto Nível a 0 se o tablet estiver offline é configurável",
+        "nl": "set batterij Niveau naar 0 als de tablet offline is, is configureerbaar",
+        "fr": "batterie de réglage Niveau à 0 si la tablette est hors ligne est configurable",
+        "it": "set batteria Livello a 0 se il tablet è offline è configurabile",
+        "es": "batería set Nivel a 0 si la tableta está fuera de línea es configurable",
+        "pl": "zestaw baterii Poziom do 0, jeśli tabletka jest offline jest konfigurowalna",
+        "uk": "акумулятор Рівень до 0, якщо планшет вимкнено",
+        "zh-cn": "设置电池 平板电脑离线时为 0级"
+      },
       "3.0.11": {
         "en": "translate api-type",
         "de": "übersetzen api-typ",
@@ -80,22 +93,8 @@
         "pl": "dodaje mqttTimeout w ustawieniach",
         "uk": "додати mqttTimeout в налаштуваннях",
         "zh-cn": "增加环境的系统"
-      },
-      "3.0.5": {
-        "en": "add setRAW DP, this allows you to send a fullbrowser command directly",
-        "de": "setRAW DP hinzufügen, so können Sie direkt einen Fullbrowser Befehl senden",
-        "ru": "добавить setRAW DP, это позволяет отправлять команду fullbrowser напрямую",
-        "pt": "adicionar setRAW DP, isso permite que você envie um comando fullbrowser diretamente",
-        "nl": "plaats de centrale DP toe, dit laat je een volledige commando sturen",
-        "fr": "ajouter setRAW DP, cela vous permet d'envoyer une commande Fullbrowser directement",
-        "it": "aggiungere setRAW DP, questo consente di inviare un comando fullbrowser direttamente",
-        "es": "añadir setRAW DP, esto le permite enviar un comando fullbrowser directamente",
-        "pl": "dodanie DP RRAW pozwala to na wysłanie pełnego browseru bezpośrednio do środka",
-        "uk": "add setRAW DP, це дозволяє надсилати повнометражну команду безпосередньо",
-        "zh-cn": "增加联谊会,这使你能够直接派遣一支全员指挥。"
       }
     },
-    "title": "fullyBrowser",
     "titleLang": {
       "en": "fullyBrowser",
       "de": "fullyBrowser",
@@ -241,7 +240,8 @@
     "mqttDoNotVerifyUserPw": true,
     "mqttUpdateUnchangedObjects": false,
     "mqttConnErrorsAsInfo": true,
-    "mqttCreateDefaultEventObjects": true
+    "mqttCreateDefaultEventObjects": true,
+    "zeroBattery": false
   },
   "encryptedNative": [
     "mqttPassword"
